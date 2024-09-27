@@ -1,0 +1,159 @@
+
+
+.taskInput {
+  transition-duration: 0.4s;
+  width: 100%;
+  padding: 14px 32px 14px 16px;
+  color: #8292da;
+  border-color: #8292da;
+  border: 2.0px solid #8292da;
+}
+
+.taskInput:focus {
+  outline: none !important;
+  border: 2.0px solid #8292da;
+  box-shadow: 0 0 5px #8292da;
+}
+
+.taskInput:hover {
+  outline: none !important;
+  border: 2.0px solid #8292da;
+  box-shadow: 0 0 5px #8292da;
+}
+
+.taskButton {
+  display: flex;
+  transition-duration: 0.8s;
+  padding: 16px;
+  cursor: pointer;
+  border: 2.0px solid #8292da;
+  background-color: #8292da;
+  color: rgb(255, 255, 255);
+}
+
+.taskButton:hover {
+  border: 2.0px solid (53, 56, 83);
+  background-color: (53, 56, 83);
+  color: rgb(61, 62, 65);
+  box-shadow: 0 0 5px (53, 56, 83);
+}
+
+select {
+  display: flex;
+  transition-duration: 0.8s;
+  padding: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 1%;
+  margin-right: 1%;
+  border: 2.0px solid #8292da;
+  background-color: #8292da;
+  color: rgb(255, 255, 255);
+  
+}
+
+select:hover {
+  background-color: #8292da;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 5px #8292da;
+}
+
+
+select:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px rgb(53, 56, 83);
+}
+
+
+.low {
+  cursor: default;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(57, 165, 30);
+  padding: 3%;
+  margin-bottom: 1%;
+  color: #fff;
+  font-weight: 500;
+}
+
+.medium {
+  cursor: default;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(228, 182, 30);
+  padding: 3%;
+  margin-bottom: 1%;
+  color: #fff;
+  font-weight: 500;
+}
+
+.high {
+  cursor: default;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(219, 47, 25);
+  padding: 3%;
+  margin-bottom: 1%;
+  color: #fff;
+  font-weight: 500;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  transition-duration: 0.4s;
+  margin-right: 5px;
+  color: rgb(255, 254, 254);
+}
+
+.deleteButton:hover {
+  color: rgb(147, 151, 252);
+}
+
+.inputGroup {
+  display: flex;
+  margin-bottom: 0.1%;
+  color: #fff;
+  margin-bottom: 2%;
+}
+
+.group {
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+:root {
+	--primary: #D81E5B;
+	--secondary: #8A4EFC;
+	--light: #EEE;
+	--light-alt: #61759b;
+	--dark: #131A26;
+	--dark-alt: #202B3E;
+}
+
+h1 {
+  color: rgb(53, 56, 83);
+}
+
+
+@media screen and (max-width: 960px) {
+  .group {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .group {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
